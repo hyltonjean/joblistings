@@ -1,2 +1,2 @@
 # joblistings
-Apply for Jobs - not full project
+Application platform to apply for Jobs - not the full project
