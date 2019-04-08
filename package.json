@@ -1,0 +1,38 @@
+{
+	"name": "xxxx",
+	"version": "1.0.0-alpha.1",
+	"private": true,
+	"license": "proprietary",
+	"description": "xxxx",
+	"scripts": {
+		"build:dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"build:prod": "cross-env NODE_ENV=production webpack --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"start": "npm run watch",
+		"watch": "npm run build:dev -- --watch"
+	},
+	"author": "Charles Louw <charles.louw@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://cubitworx@bitbucket.org/cubitworx/xxxx.git"
+	},
+	"dependencies": {
+		"@types/jquery": "^3.3.29",
+		"@types/js-cookie": "^2.2.0",
+		"@types/lodash": "^4.14.120",
+		"@types/node": "^9.6.41",
+		"bootstrap": "^4.2.1",
+		"cross-env": "^5.2.0",
+		"jquery": "^3.2",
+		"js-cookie": "^2.2.0",
+		"laravel-mix": "^4.0.7",
+		"lodash": "^4.17.11",
+		"popper.js": "^1.14.6",
+		"resolve-url-loader": "^2.3.1",
+		"sass": "^1.16.1",
+		"sass-loader": "^7.1.0",
+		"ts-loader": "^5.3.3",
+		"typescript": "^3.2.4",
+		"vue-template-compiler": "^2.5.22"
+	}
+}
